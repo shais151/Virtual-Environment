@@ -1,6 +1,0 @@
-2022-11-10 14:39:48 - myprojectname.core.weather - INFO - Loaded weather
-2022-11-10 14:39:56 - myprojectname.main - INFO - gone to root
-2022-11-10 14:51:20 - myprojectname.core.weather - INFO - Loaded weather
-2022-11-10 14:51:23 - myprojectname.main - INFO - gone to root
-2022-11-10 14:51:28 - myprojectname.main - INFO - Requested latitude: 51.5002 and longitude: -0.120000124
-2022-11-10 14:51:28 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.5002&longitude=-0.120000124&hourly=temperature_2m
