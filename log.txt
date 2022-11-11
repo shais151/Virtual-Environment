@@ -1,0 +1,38 @@
+2022-11-11 14:35:15 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-11 14:35:19 - myprojectname.main - INFO - gone to root
+2022-11-11 14:35:24 - myprojectname.main - INFO - Requested latitude: 51.5002 and longitude: -0.120000124
+2022-11-11 14:35:24 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.5002&longitude=-0.120000124&hourly=temperature_2m
+2022-11-11 14:35:24 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-11 14:35:24 - myprojectname.core.weather - INFO - Received weather data
+2022-11-11 14:41:17 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-11 14:41:23 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:11 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:17 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:17 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:17 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:17 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:17 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:18 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:18 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:20 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:21 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:21 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:22 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:22 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:22 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:23 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:23 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:23 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:23 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:23 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:24 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:24 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:24 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:27 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:27 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:28 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:28 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:28 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:28 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:28 - myprojectname.main - INFO - gone to root
+2022-11-11 14:42:29 - myprojectname.main - INFO - gone to root
