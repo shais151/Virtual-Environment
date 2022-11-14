@@ -40,9 +40,9 @@ async def read_item(item_id):
 
 
 @app.get("/weather")
-async def get_weather(latitude: float = 51.5002, longitude: float = -0.120000124):
-    log.info(f"Requested latitude: {latitude} and longitude: {longitude}")
-    output = weather_api.get_weather(latitude=latitude, longitude=longitude)
+async def get_weather(latitude: float = 51.5002, longitude: float = -0.120000124, options: str = "temperature_2m"):
+    log.info(f"Requested latitude: {latitude} and longitude: {longitude} with options {options}")
+    output = weather_api.get_weather(latitude=latitude, longitude=longitude, options=options)
     return {"weather": output}
 
 
@@ -51,4 +51,12 @@ def html_output(request: Request):
     return templates.TemplateResponse(
         "index.html",
         {"request": request, "data": ["hello", 1, False]},
+    )
+
+
+@app.get("/chart", response_class=HTMLResponse)
+async def html_output(request: Request):
+    return templates.TemplateResponse(
+        "weather.html",
+        {"request": request, "data": weather.get_weather(options="temperature_2m")},
     )
