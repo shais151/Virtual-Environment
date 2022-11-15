@@ -1,4 +1,5 @@
 import logging
+import json
 from urllib.request import urlopen
 
 log = logging.getLogger(__name__)
@@ -9,4 +10,4 @@ def get_url(url:str):
     mybytes = weather.read()
     data = mybytes.decode("utf8")
     weather.close()
-    return data
+    return json.loads(data)

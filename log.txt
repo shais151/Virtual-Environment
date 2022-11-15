@@ -111,3 +111,25 @@
 2022-11-14 12:02:27 - myprojectname.core.weather - INFO - Loaded weather
 2022-11-14 12:02:52 - myprojectname.core.weather - INFO - Loaded weather
 2022-11-14 12:04:18 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:05:46 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:05:52 - myprojectname.main - INFO - gone to root
+2022-11-15 10:06:13 - myprojectname.main - INFO - gone to root
+2022-11-15 10:06:50 - myprojectname.main - INFO - Requested latitude: 51.5002 and longitude: -0.120000124 with options temperature_2m
+2022-11-15 10:06:50 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.5002&longitude=-0.120000124&hourly=temperature_2m
+2022-11-15 10:06:50 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-15 10:06:50 - myprojectname.core.weather - INFO - Received weather data
+2022-11-15 10:10:16 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:14:17 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:14:59 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:19:19 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:23:18 - myprojectname.main - INFO - Requested latitude: 51.5002 and longitude: -0.120000124 with options temperature_2m
+2022-11-15 10:23:18 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.5002&longitude=-0.120000124&hourly=['temperature_2m']
+2022-11-15 10:23:18 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-15 10:23:42 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:27:51 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:32:45 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:35:41 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:36:07 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:41:11 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:42:58 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-15 10:45:01 - myprojectname.core.weather - INFO - Loaded weather
