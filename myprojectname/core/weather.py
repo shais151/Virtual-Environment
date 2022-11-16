@@ -19,8 +19,9 @@ class weather:
         return options
 
     def get_weather(self, latitude:float = 51.5002, longitude:float = -0.1262, options:str = "temperature_2m"):
-        options = self.check_options(options=options.split(","))
-        if len(options) <= 0:
+
+        new_options = self.check_options(options=options.split(","))
+        if len(new_options) <= 0:
             return "No options provided"
 
         data = {"latitude": latitude, "longitude": longitude}

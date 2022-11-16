@@ -55,14 +55,16 @@ def html_output(request: Request):
 
 
 @app.get("/chart", response_class=HTMLResponse)
-async def html_output(request: Request):
-    data = get_weather(options="temperature_2m")
-    data = data['weather']['hourly']['time']
+async def chart_output(request: Request, latitude: float = 51.5002, longitude: float = -0.120000124, options:str = "temperature_2m"):
+    data = weather_api.get_weather(latitude=latitude, longitude=longitude, options=options)
+    labels = data['hourly']['time']
+    values = data['hourly']['temperature_2m']
     return templates.TemplateResponse(
         "weather.html",
-        {"request": request, "data": data},
+        {"request": request, "data": [data, labels, values]},
     )
 
+
 @app.post("/weather_send")
-def weather_send(country: str = "london", temperature: str | None = None ):
-    return {"country": country, "temp": temperature}
+async def weather_send(request: Request,country:str=Form(), temperature:str | None = None):
+    return {"country": country, "temperature": temperature}

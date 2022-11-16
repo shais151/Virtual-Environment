@@ -9,37 +9,37 @@
 
 <div class="row align-items-md-stretch">
   <div class="col-4">
-    <form method="POST" action="{{url_for('weather_send')}}">
-      <div class="card">
-        <div class="card-header">
-          Selected chart options
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">
-            <select class="form-select" name="country">
-            <option value="">Country</option>
-            <option value="berlin">Berlin</option>
-            <option value="paris">Paris</option>
-            <option value="london">London</option>
-          </select>
-          </li>
-          <li class="list-group-item">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" name="temperature" value="yes"> Temperature
-            </div>
-          </li>
-          <li class="list-group-item">
-            <input class="btn btn-primary" type="submit" value="Submit">
-          </li>
-        </ul>
-      </div>
-    </form>
+	<form method="POST" action="{{url_for('weather_send')}}">
+	  <div class="card">
+		<div class="card-header">
+		  Selected chart options
+		</div>
+		<ul class="list-group list-group-flush">
+		  <li class="list-group-item">
+			<select class="form-select" name="country">
+			<option value="">Country</option>
+			<option value="berlin">Berlin</option>
+			<option value="paris">Paris</option>
+			<option value="london">London</option>
+		  </select>
+		  </li>
+		  <li class="list-group-item">
+			<div class="form-check">
+			  <input class="form-check-input" type="checkbox" name="temperature" value="yes"> Temperature
+			</div>
+		  </li>
+		  <li class="list-group-item">
+			<input class="btn btn-primary" type="submit" value="Submit">
+		  </li>
+		</ul>
+	  </div>
+	</form>
   </div>
   <div class="col-4">
-    <canvas id="myChart" width="400" height="400"></canvas>
+	<canvas id="myChart" width="400" height="400"></canvas>
   </div>
-  <div class="col-4">
-    {{data}}
+   <div class="col-4">
+	 {{data}}
   </div>
 </div>
 
@@ -48,43 +48,48 @@
 {% block scripts %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js" integrity="sha512-ElRFoEQdI5Ht6kZvyzXhYG9NqjtkmlkfYk0wr6wHxU9JEHakS7UJZNeml5ALk+8IKlU6jDgMabC3vkumRokgJA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 <script>
-    var data = "{{data}}";
-    console.log(data)
-const ctx = document.getElementById('myChart').getContext('2d');
+
+  var labels = "{{data[1]}}"
+  labels = labels.replaceAll("&#39;", "'")
+  console.log(labels)
+  var values = "{{data[2]}}"
+  console.log(values)
+
+const ctx = document.getElementById('myChart').getContext('2d')
 const myChart = new Chart(ctx, {
-    type: 'bar',
-    data: {
-        labels: {{data}},
-        datasets: [{
-            label: '# of Votes',
-            data: [12, 19, 3, 5, 2, 3],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
-            ],
-            borderWidth: 1
-        }]
-    },
-    options: {
-        scales: {
-            y: {
-                beginAtZero: true
-            }
-        }
-    }
-});
+	type: 'bar',
+	data: {
+		labels: labels,
+		datasets: [{
+			label: '# of Votes',
+			data: values,
+			backgroundColor: [
+				'rgba(255, 99, 132, 0.2)',
+				'rgba(54, 162, 235, 0.2)',
+				'rgba(255, 206, 86, 0.2)',
+				'rgba(75, 192, 192, 0.2)',
+				'rgba(153, 102, 255, 0.2)',
+				'rgba(255, 159, 64, 0.2)'
+			],
+			borderColor: [
+				'rgba(255, 99, 132, 1)',
+				'rgba(54, 162, 235, 1)',
+				'rgba(255, 206, 86, 1)',
+				'rgba(75, 192, 192, 1)',
+				'rgba(153, 102, 255, 1)',
+				'rgba(255, 159, 64, 1)'
+			],
+			borderWidth: 1
+		}]
+	},
+	options: {
+		scales: {
+			y: {
+				beginAtZero: true
+			}
+		}
+	}
+})
 </script>
 
 {% endblock %}
