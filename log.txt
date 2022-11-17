@@ -1,0 +1,133 @@
+2022-11-17 13:52:41 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 13:54:41 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 13:54:51 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.5002&longitude=-0.120000124&hourly=temperature_2m
+2022-11-17 13:54:51 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 13:54:51 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 13:54:58 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=48.8566&longitude=2.3522&hourly=temperature_2m
+2022-11-17 13:54:58 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 13:54:59 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 13:55:04 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 13:55:04 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 13:55:04 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 13:55:07 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 13:55:07 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 13:55:07 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 13:58:41 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 13:58:48 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 13:58:48 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 13:58:48 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:05:17 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:05:21 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:05:21 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:05:22 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:13:36 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:13:40 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:13:40 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:13:40 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:16:48 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:16:51 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:16:51 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:16:52 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:21:07 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:21:11 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:21:11 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:21:11 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:21:33 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:21:35 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:21:35 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:21:36 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:22:15 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:22:16 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:22:16 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:22:16 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:22:53 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:22:53 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:22:53 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:23:04 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=48.8566&longitude=2.3522&hourly=temperature_2m,rain
+2022-11-17 14:23:04 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:23:04 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:27:37 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:27:42 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=48.8566&longitude=2.3522&hourly=temperature_2m,rain
+2022-11-17 14:27:42 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:27:42 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:27:45 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m
+2022-11-17 14:27:45 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:27:45 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:31:44 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:31:51 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m
+2022-11-17 14:31:51 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:31:51 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:31:54 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:31:54 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:31:55 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:31:59 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m
+2022-11-17 14:31:59 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:32:00 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:32:05 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=48.8566&longitude=2.3522&hourly=temperature_2m
+2022-11-17 14:32:05 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:32:05 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:32:08 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m
+2022-11-17 14:32:08 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:32:08 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:32:27 - myprojectname.main - INFO - gone to root
+2022-11-17 14:38:11 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:38:12 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m
+2022-11-17 14:38:12 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:38:12 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:38:55 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:39:08 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:39:13 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m
+2022-11-17 14:39:13 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:39:13 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:39:23 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.5002&longitude=-0.120000124&hourly=temperature_2m
+2022-11-17 14:39:23 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:39:23 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:40:26 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:40:28 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.5002&longitude=-0.120000124&hourly=temperature_2m
+2022-11-17 14:40:28 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:40:28 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:42:23 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:42:25 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.5002&longitude=-0.120000124&hourly=temperature_2m
+2022-11-17 14:42:25 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:42:26 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:45:06 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:45:08 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.5002&longitude=-0.120000124&hourly=temperature_2m
+2022-11-17 14:45:08 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:45:08 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:45:14 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,rain
+2022-11-17 14:45:14 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:45:14 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:45:22 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m
+2022-11-17 14:45:22 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:45:23 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:45:27 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:45:27 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:45:27 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:45:39 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:45:39 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:45:40 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:47:10 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:47:10 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:47:10 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:47:16 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:47:16 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:47:16 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:49:23 - myprojectname.core.weather - INFO - Loaded weather
+2022-11-17 14:49:28 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m,rain
+2022-11-17 14:49:28 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:49:28 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:49:37 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,rain
+2022-11-17 14:49:37 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:49:37 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:49:40 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=51.51&longitude=-0.13&hourly=temperature_2m
+2022-11-17 14:49:40 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:49:40 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:49:47 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=48.8566&longitude=2.3522&hourly=temperature_2m
+2022-11-17 14:49:47 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:49:47 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:50:45 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=48.8566&longitude=2.3522&hourly=temperature_2m,rain
+2022-11-17 14:50:45 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:50:45 - myprojectname.core.weather - INFO - Received weather data
+2022-11-17 14:50:49 - myprojectname.core.weather - INFO - https://api.open-meteo.com/v1/forecast?latitude=52.52&longitude=13.41&hourly=temperature_2m,rain
+2022-11-17 14:50:49 - myprojectname.core.utils - INFO - Getting weather data
+2022-11-17 14:50:49 - myprojectname.core.weather - INFO - Received weather data
