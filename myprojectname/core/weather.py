@@ -5,10 +5,18 @@ from myprojectname.core.utils import get_url
 
 log = logging.getLogger(__name__)
 
+
 class weather:
     def __init__(self):
         self.url = "https://api.open-meteo.com/v1/forecast"
-        self.validOptions = ["temperature_2m", "precipitation", "rain", "showers", "snowfall", "windspeed_10m"]
+        self.validOptions = [
+            "temperature_2m",
+            "precipitation",
+            "rain",
+            "showers",
+            "snowfall",
+            "windspeed_10m"
+        ]
         log.info("Loaded weather")
 
     def check_options(self, options):
@@ -18,7 +26,12 @@ class weather:
                 optionlist.append(option)
         return options
 
-    def get_weather(self, latitude:float = 51.5002, longitude:float = -0.1262, options:str = "temperature_2m"):
+    def get_weather(
+        self,
+        latitude: float = 51.5002,
+        longitude: float = -0.1262,
+        options: str = "temperature_2m"
+    ):
 
         new_options = self.check_options(options=options.split(","))
         if len(new_options) <= 0:
